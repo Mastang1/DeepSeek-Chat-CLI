@@ -6,7 +6,7 @@ version: 0.1.0
 
 ## Features
 
-- Interactive chat
+- Interactive chat, supports multi-line input, so you can input **your code** or other **multi-line text** in command line.
 - Streaming response (use `stream#` prefix)
 - Chinese-English translation (use `translate#` prefix)
 - Balance query (type `balance`)
@@ -14,7 +14,7 @@ version: 0.1.0
 - Markdown formatted output rendering
 
 ## Installation
-
+- must install rich and deepseek library first
 ```bash
 pip install rich deepseek
 ```
@@ -31,6 +31,7 @@ api_key=your_api_key
 python deepseek_chat.py
 ```
 3. Start chatting!
+4. input your message in command line, and the input supports multiple lines, press ":::" to end input.
 
 ## Commands
 - Normal char:Directy input content
@@ -39,6 +40,18 @@ python deepseek_chat.py
 - balance:Check balance
 - clear:Clear screen
 - exit:Exit the chat
+## Example
+```bash
+exit
+:::
+
+trans# 你好
+:::
+
+Please analyze the following text and provide a summary in Chinese:
+[you can paste your text here]
+:::
+```
 
 ## Notes
 1. Ensure stable network connection.
