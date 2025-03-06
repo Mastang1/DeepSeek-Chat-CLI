@@ -52,6 +52,9 @@ Please analyze the following text and provide a summary in Chinese:
 [you can paste your text here]
 :::
 ```
+- the picture below shows the example of analyzing a program and providing a summary in English:
+<img src="image_code.png" width="500">
+<img src="image_analy.png" width="1000">
 
 ## Notes
 1. Ensure stable network connection.
