@@ -14,9 +14,9 @@ version: 0.1.0
 - Markdown formatted output rendering
 
 ## Installation
-- must install rich and deepseek library first
+- must install rich library first
 ```bash
-pip install rich deepseek
+pip install rich 
 ```
 ## Configuration
 - Configure API Key in my_key_dk.ini
